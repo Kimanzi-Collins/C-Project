@@ -1,3 +1,4 @@
+//GitHub Repository Link: https://github.com/Kimanzi-Collins/C-Project
 //SCS3/2490/2025
 //SCS3/9999/2025
 //SCS3/2589/2025
@@ -20,12 +21,10 @@ int main(){
         scanf("%d", &choice);
         switch(choice){
             case 1:
-                // Function to log daily transport expense
                 printf("Logging daily transport expense...\n");
                 logExpense();
                 break;
             case 2:
-                // Function to generate expense report
                 printf("Generating expense report...\n");
                 generateReport();
                 break;
