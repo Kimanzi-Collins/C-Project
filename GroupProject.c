@@ -7,6 +7,7 @@
 int main(){
     int choice;
     do{
+        printf("***************************************************************\n");
         printf("-------------Daily Transport Tracker-------------\n");
         printf("Welcome to the Daily Transport Tracker System!\n");
         printf("This system helps you track daily transport expenses efficiently.\n");
