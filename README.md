@@ -1,7 +1,7 @@
 
 # C Project
 
-A passionate project made using basic knowledge and syntax of C
+A passionate project for tracking daily transport expenses. The project showcases the use of Functions, File Handling, Pointers and logic in C. 
 
 
 ## Acknowledgements
@@ -26,5 +26,6 @@ Please adhere to this project's `code of conduct`.
 
 
 ## 🚀 About Me
-I'm a full stack developer...
+I'm just a curious guy trying to understand the logic behind how computers work.
+
 
