@@ -1,7 +1,7 @@
 
 # C Project
 
-A passionate project for tracking daily transport expenses. The project showcases the use of Functions, File Handling, Pointers and logic in C. 
+A passionate project for tracking revision schedules. The project showcases the use of Functions, File Handling, Pointers and logic in C. 
 
 
 ## Acknowledgements
@@ -13,7 +13,11 @@ A passionate project for tracking daily transport expenses. The project showcase
 
 ## Appendix
 
-This project aims to solve.....
+This project aims to offer a planner for exam revision.
+The system logs the subjects that a student enters, including exam date and difficulty, based on the student.
+The system then generates a file for each student and the revision plans.
+The system advises on strategies depending on the time left and difficulty.
+Although a console version, it's a showcase of a basic project that can be easily learnt.
 
 
 ## Contributing
@@ -27,5 +31,6 @@ Please adhere to this project's `code of conduct`.
 
 ## 🚀 About Me
 I'm just a curious guy trying to understand the logic behind how computers work.
+You can check my profile for contact info :)
 
 
