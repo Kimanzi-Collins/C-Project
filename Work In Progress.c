@@ -146,3 +146,38 @@ void AddSubject(){
     }
     fclose(fpointer);
 }
+
+void viewAllRevisionSubjects(){
+    FILE *fp;
+    char filename[60], ch;
+    printf("Enter Student Name to view subjects: ");
+    scanf(" %[^\n]s", filename);
+    sprintf(filename, "%s.txt", filename);   
+    fp = fopen(filename, "r");
+    if(fp == NULL){
+        printf("Error opening file!\n");
+        return;
+    }
+    while((ch = fgetc(fp)) != EOF){
+        putchar(ch);
+    }
+    fclose(fp);
+}
+
+void viewPrioritySubjects(){
+    FILE *fp;
+    char filename[60], ch;
+    printf("Enter Student Name to view priority subjects: ");
+    scanf(" %[^\n]s", filename);
+    sprintf(filename, "%s_priority.txt", filename);
+    fp = fopen(filename, "r");
+    if(fp == NULL){
+        printf("Error opening file!\n");
+        return;
+    }
+    while((ch = fgetc(fp)) != EOF){
+        putchar(ch);
+    }
+    fclose(fp);
+}
+
