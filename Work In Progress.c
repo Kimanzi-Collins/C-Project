@@ -186,18 +186,11 @@ int main(){
     int choice;
     do{
         printf("***************************************************************\n");
-        printf("-------------Daily Transport Tracker-------------\n");
-        printf("Welcome to the Daily Transport Tracker System!\n");
-        printf("This system helps you track daily transport expenses efficiently.\n");
-        printf("You can log your daily transport costs and generate reports as needed.\n");
         printf("-------------Smart Exam Revision Planner-------------\n");
         printf("Welcome to the Smart Exam Revision Planner System!\n");
         printf("This system helps you track your revision efficiently.\n");
         printf("You can log the subjects with exams and view a list as well needed.\n");
         printf("Please select an option:\n");
-        printf("1. Log Daily Transport Expense\n");
-        printf("2. Generate Expense Report\n");
-        printf("3. Exit\n");
         printf("1. Log Subject for Revision\n");
         printf("2. View All Revision Subjects\n");
         printf("3. View Priority Subjects\n");
@@ -206,14 +199,10 @@ int main(){
         scanf("%d", &choice);
         switch(choice){
             case 1:
-                printf("Logging daily transport expense...\n");
-                logExpense();
                 printf("Logging subject for revision...\n");
                 AddSubject();
                 break;
             case 2:
-                printf("Generating expense report...\n");
-                generateReport();
                 printf("Generating revision subjects report...\n");
                 viewAllRevisionSubjects();
                 break;
@@ -229,6 +218,6 @@ int main(){
             default:
                 printf("Invalid choice. Please try again.\n");
         }
-    } while(choice != 3);
     } while(choice != 4);
 }
+
